@@ -1,0 +1,13 @@
+{
+    "name": "reactopya_examples",
+    "dependencies": {
+        "@material-ui/core": "^4.2.0",
+        "@material-ui/icons": "^4.2.1",
+        "@material-ui/styles": "^4.2.0",
+        "react-accessible-accordion": "^3.0.0",
+        "react-collapsing-table": "^0.4.2",
+        "react-icons": "^3.7.0",
+        "react-tabs": "^3.0.0",
+        "styled-components": "^4.3.2"
+    }
+}

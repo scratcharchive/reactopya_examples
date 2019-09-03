@@ -1,0 +1,9 @@
+{
+    "type": "InteractivePlotly",
+    "description": "Interactive plotly example",
+    "propsKeys": [],
+    "javaScriptStateKeys": ["noise_level", "num_points"],
+    "pythonStateKeys": ["series"],
+    "galleryProps": {
+    }
+}

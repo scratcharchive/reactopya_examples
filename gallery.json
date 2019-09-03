@@ -1,0 +1,278 @@
+{
+    "widgets": [
+        {
+            "type": "PlotlyExample",
+            "title": "Plotly example",
+            "key": "plotly-example",
+            "props": {}
+        },
+        {
+            "type": "InteractivePlotly",
+            "title": "Interactive plotly",
+            "key": "interactive-plotly",
+            "props": {}
+        },
+        {
+            "type": "HBox",
+            "title": "HBox example",
+            "key": "hbox-example",
+            "props": {},
+            "children": [
+                {
+                    "type": "PlotlyExample",
+                    "title": "Plotly example",
+                    "key": "plotly-example",
+                    "props": {}
+                },
+                {
+                    "type": "InteractivePlotly",
+                    "title": "Interactive plotly",
+                    "key": "interactive-plotly",
+                    "props": {}
+                }
+            ]
+        },
+        {
+            "type": "VBox",
+            "title": "VBox example",
+            "key": "vbox-example",
+            "props": {},
+            "children": [
+                {
+                    "type": "PlotlyExample",
+                    "title": "Plotly example",
+                    "key": "plotly-example",
+                    "props": {
+                        "plot_width": 200
+                    }
+                },
+                {
+                    "type": "InteractivePlotly",
+                    "title": "Interactive plotly",
+                    "key": "interactive-plotly",
+                    "props": {
+                        "plot_width": 200
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Tabs",
+            "title": "Tabs example",
+            "key": "tabs-example",
+            "props": {
+                "tabs": [
+                    {
+                        "label": "Plotly"
+                    },
+                    {
+                        "label": "Interactive plotly"
+                    }
+                ]
+            },
+            "children": [
+                {
+                    "type": "PlotlyExample",
+                    "title": "Plotly example",
+                    "key": "plotly-example",
+                    "props": {}
+                },
+                {
+                    "type": "InteractivePlotly",
+                    "title": "Interactive plotly",
+                    "key": "interactive-plotly",
+                    "props": {}
+                }
+            ]
+        },
+        {
+            "type": "Accordion",
+            "title": "Accordion example",
+            "key": "accordion-example",
+            "props": {
+                "panels": [
+                    {
+                        "label": "Plotly"
+                    },
+                    {
+                        "label": "Interactive plotly"
+                    }
+                ]
+            },
+            "children": [
+                {
+                    "type": "PlotlyExample",
+                    "title": "Plotly example",
+                    "key": "plotly-example",
+                    "props": {}
+                },
+                {
+                    "type": "InteractivePlotly",
+                    "title": "Interactive plotly",
+                    "key": "interactive-plotly",
+                    "props": {}
+                }
+            ]
+        },
+        {
+            "type": "Tabs",
+            "title": "Nested",
+            "props": {
+                "tabs": [
+                    {
+                        "label": "HBox"
+                    },
+                    {
+                        "label": "VBox"
+                    },
+                    {
+                        "label": "Tabs"
+                    },
+                    {
+                        "label": "Accordion"
+                    }
+                ]
+            },
+            "children": [
+                {
+                    "type": "HBox",
+                    "title": "HBox example",
+                    "key": "hbox-example",
+                    "props": {},
+                    "children": [
+                        {
+                            "type": "PlotlyExample",
+                            "title": "Plotly example",
+                            "key": "plotly-example",
+                            "props": {}
+                        },
+                        {
+                            "type": "InteractivePlotly",
+                            "title": "Interactive plotly",
+                            "key": "interactive-plotly",
+                            "props": {}
+                        }
+                    ]
+                },
+                {
+                    "type": "VBox",
+                    "title": "VBox example",
+                    "key": "vbox-example",
+                    "props": {},
+                    "children": [
+                        {
+                            "type": "PlotlyExample",
+                            "title": "Plotly example",
+                            "key": "plotly-example",
+                            "props": {
+                                "plot_width": 200
+                            }
+                        },
+                        {
+                            "type": "InteractivePlotly",
+                            "title": "Interactive plotly",
+                            "key": "interactive-plotly",
+                            "props": {
+                                "plot_width": 200
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Tabs",
+                    "title": "Tabs example",
+                    "key": "tabs-example",
+                    "props": {
+                        "tabs": [
+                            {
+                                "label": "Plotly"
+                            },
+                            {
+                                "label": "Interactive plotly"
+                            }
+                        ]
+                    },
+                    "children": [
+                        {
+                            "type": "PlotlyExample",
+                            "title": "Plotly example",
+                            "key": "plotly-example",
+                            "props": {}
+                        },
+                        {
+                            "type": "InteractivePlotly",
+                            "title": "Interactive plotly",
+                            "key": "interactive-plotly",
+                            "props": {}
+                        }
+                    ]
+                },
+                {
+                    "type": "Accordion",
+                    "title": "Accordion example",
+                    "key": "accordion-example",
+                    "props": {
+                        "panels": [
+                            {
+                                "label": "Plotly"
+                            },
+                            {
+                                "label": "Interactive plotly"
+                            }
+                        ]
+                    },
+                    "children": [
+                        {
+                            "type": "PlotlyExample",
+                            "title": "Plotly example",
+                            "key": "plotly-example",
+                            "props": {}
+                        },
+                        {
+                            "type": "InteractivePlotly",
+                            "title": "Interactive plotly",
+                            "key": "interactive-plotly",
+                            "props": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "HBox",
+            "title": "Sync example",
+            "key": "sync-example",
+            "props": {},
+            "children": [
+                {
+                    "type": "InteractivePlotly",
+                    "title": "Interactive plotly 1",
+                    "key": "interactive-plotly-1",
+                    "props": {
+                        "sync": {
+                            "id": "sync1",
+                            "syncState": {
+                                "num_points": "num_points",
+                                "noise_level": "noise_level"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "InteractivePlotly",
+                    "title": "Interactive plotly 2",
+                    "key": "interactive-plotly-2",
+                    "props": {
+                        "sync": {
+                            "id": "sync1",
+                            "syncState": {
+                                "num_points": "num_points",
+                                "noise_level": "noise_level"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "project_name": "reactopya_examples",
+    "version": "0.4.0",
+    "description": "Gallery of example reactopya widgets",
+    "author": "Jeremy Magland",
+    "license": "Apache-2.0",
+    "setup_py": {
+        "install_requires": [
+            "jupyter",
+            "numpy",
+            "mountaintools",
+            "spikeforest",
+            "scipy"
+        ]
+    },
+    "additional_jupyter_imports": [
+        "from .widgets.jupyter import *"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "type": "PlotlyExample",
+    "description": "Plotly example",
+    "propsKeys": [],
+    "javaScriptStateKeys": ["dummy"],
+    "pythonStateKeys": ["series"],
+    "galleryProps": {
+    }
+}
