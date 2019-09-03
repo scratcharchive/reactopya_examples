@@ -5,3 +5,7 @@ Demonstrates the basic functionality and usage of [reactopya](https://github.com
 ## Installation
 
 See [install instructions](generated/docs/install.md).
+
+## Tests
+
+Some docker tests are available in the `generated/tests` directory of this repo.
