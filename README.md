@@ -4,8 +4,12 @@ Demonstrates the basic functionality and usage of [reactopya](https://github.com
 
 ## Installation
 
-See [install instructions](generated/docs/install.md).
+See [installation instructions](generated/docs/install.md).
+
+## Usage
+
+See the [example_notebooks](example_notebooks) directory for usage examples.
 
 ## Tests
 
-Some docker tests are available in the `generated/tests` directory of this repo.
+Some docker tests are available in the [generated/tests](generated/tests) directory.
