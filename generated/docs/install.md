@@ -32,5 +32,5 @@ jupyter nbextension enable reactopya_jup --py --sys-prefix
 Finally, install the Jupyter Python package for reactopya_examples:
 
 ```
-pip install reactopya_examples==0.4.1
+pip install reactopya_examples_jup==0.4.1
 ```
