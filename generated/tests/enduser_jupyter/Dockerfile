@@ -25,13 +25,14 @@ RUN pip install jupyterlab
 #########################################
 ### Install reactopya_jup
 RUN jupyter labextension install @jupyter-widgets/jupyterlab-manager
-RUN pip install --upgrade reactopya_jup==0.4.3
-RUN jupyter labextension install reactopya_jup@0.4.3
+RUN pip install --upgrade reactopya_jup==0.5.1
+RUN jupyter labextension install reactopya_jup@0.5.1
+RUN pip install ipywidgets
 RUN jupyter nbextension install --sys-prefix --py reactopya_jup
 RUN jupyter nbextension enable reactopya_jup --py --sys-prefix
 
 #########################################
-### Install reactopya_examples_jup
-RUN pip install --upgrade reactopya_examples_jup==0.4.1
+### Install reactopya_examples
+RUN pip install reactopya_examples==0.5.2
 
 CMD echo "See instructions.txt on how to run this container"

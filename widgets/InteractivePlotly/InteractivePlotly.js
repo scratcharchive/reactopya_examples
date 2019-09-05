@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { PythonInterface } from 'reactopya';
-import { Plot } from '../jscommon/PlotlyLight';
+import { Plot } from '../jscommon/PlotlyPatched';
 import InputSlider from './InputSlider';
 import AutoDetermineWidth from '../jscommon/AutoDetermineWidth';
 import Sync from '../jscommon/sync'

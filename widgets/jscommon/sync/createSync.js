@@ -67,7 +67,6 @@ function get_sync_object(id) {
 
 function start_sync(component, sync) {
     if (!sync) return;
-    console.log('start_sync', sync);
     for (let sync0 of sync) {
         let X = get_sync_object(sync0.id);
         X.addComponent(component, sync0);
@@ -76,7 +75,6 @@ function start_sync(component, sync) {
 
 function stop_sync(component, sync) {
     if (!sync) return;
-    console.log('stop_sync', sync);
     for (let sync0 of sync) {
         let X = get_sync_object(sync0.id);
         X.removeComponent(component);
@@ -85,7 +83,6 @@ function stop_sync(component, sync) {
 
 function update_sync(component, sync) {
     if (!sync) return;
-    console.log('update_sync', sync);
     for (let sync0 of sync) {
         let X = get_sync_object(sync0.id);
         X.updateComponent(component);

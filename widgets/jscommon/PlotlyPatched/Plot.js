@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import CanvasWidget from '../../jscommon/CanvasWidget';
+import Plotly from './plotly.patched.min.js';
+import createPlotlyComponent from 'react-plotly.js/factory';
+const Plot = createPlotlyComponent(Plotly);
 
-export default class Plot extends CanvasWidget {
+export default Plot;
+
+export class LightPlot extends CanvasWidget {
     constructor(props) {
         super(props);
         this.plotLayer = this.addCanvasLayer(this.paintPlotLayer);

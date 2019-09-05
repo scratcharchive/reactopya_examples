@@ -4,3 +4,4 @@ export { default as Tabs } from './Tabs/Tabs';
 export { default as Accordion } from './Accordion/Accordion';
 export { default as InteractivePlotly } from './InteractivePlotly/InteractivePlotly';
 export { default as PlotlyExample } from './PlotlyExample/PlotlyExample';
+export { default as VtkCone } from './VtkCone/VtkCone';

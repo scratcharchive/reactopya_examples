@@ -1,0 +1,9 @@
+{
+    "type": "VtkCone",
+    "description": "Vtk demo",
+    "propsKeys": [],
+    "javaScriptStateKeys": [],
+    "pythonStateKeys": ["status", "status_message"],
+    "galleryProps": {
+    }
+}

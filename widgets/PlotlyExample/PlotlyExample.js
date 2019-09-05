@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { PythonInterface } from 'reactopya';
 import AutoDetermineWidth from '../jscommon/AutoDetermineWidth';
-import { Plot } from '../jscommon/PlotlyLight';
+import { Plot } from '../jscommon/PlotlyPatched';
 const config = require('./PlotlyExample.json');
 
 export default class PlotlyExample extends Component {
@@ -40,7 +40,6 @@ class PlotlyExampleInner extends Component {
         this.pythonInterface.stop();
     }
     render() {
-        console.log('plotly render', this.state);
         const { series } = this.state;
         if (!series) {
             return <div>Loading...</div>;

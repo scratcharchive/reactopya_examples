@@ -1,6 +1,12 @@
 {
     "widgets": [
         {
+            "type": "VtkCone",
+            "title": "Vtk Cone",
+            "key": "VtkCone",
+            "props": {}
+        },
+        {
             "type": "PlotlyExample",
             "title": "Plotly example",
             "key": "plotly-example",

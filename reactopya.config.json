@@ -1,6 +1,6 @@
 {
     "project_name": "reactopya_examples",
-    "version": "0.4.1",
+    "version": "0.5.2",
     "description": "Gallery of example reactopya widgets",
     "author": "Jeremy Magland",
     "license": "Apache-2.0",
@@ -13,5 +13,9 @@
     },
     "additional_jupyter_imports": [
         "from .widgets.jupyter import *"
+    ],
+    "adjust_webpack_rules": [
+        "var vtkRules = require('vtk.js/Utilities/config/dependency.js').webpack.core.rules;",
+        "rules = rules.concat(vtkRules);"
     ]
 }
