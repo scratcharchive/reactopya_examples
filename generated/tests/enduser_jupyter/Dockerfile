@@ -37,6 +37,6 @@ RUN jupyter nbextension enable reactopya_jup --py --sys-prefix
 
 #########################################
 ### Install reactopya_examples
-RUN pip install reactopya_examples==0.5.2
+RUN pip install reactopya_examples==0.6.0
 
 CMD echo "See instructions.txt on how to run this container"
