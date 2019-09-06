@@ -8,7 +8,7 @@ See [installation instructions](generated/docs/install.md).
 
 ## Usage
 
-See the [example_notebooks](example_notebooks) directory for usage examples.
+See the [notebook_examples](notebook_examples) directory for usage examples.
 
 ## Tests
 
